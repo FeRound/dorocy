@@ -22,8 +22,15 @@
     font-size: $fontSizeMid;
     flex: 100%;
     flex-shrink: 0;
+    p{
+      font-size: $fontSizeSamll;
+      margin-top: 50px;
+      font-weight: $fontbold;
+    }
     .title{
-      font-size: $fontSizeMid;
+      font-size: $fontSizeBig;
+      font-weight: $fontlight;
+      margin-bottom: 50px;
     }
     img{
       width: 100%;
