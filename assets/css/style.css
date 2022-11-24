@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
 html, body {
   height: 100%;
 }
 
 body {
-  background: #fff3c4;
-  color: #666666;
+  background: #efe7dc;
+  color: #1a1a1a;
 }
 
 html, body, ul, li, h1, h2, h3, h4, h5, h6 {
@@ -62,8 +67,15 @@ a:hover {
   flex: 100%;
   flex-shrink: 0;
 }
+.box .items p {
+  font-size: 14px;
+  margin-top: 50px;
+  font-weight: 700;
+}
 .box .items .title {
-  font-size: 18px;
+  font-size: 46px;
+  font-weight: 300;
+  margin-bottom: 50px;
 }
 .box .items img {
   width: 100%;
@@ -175,13 +187,11 @@ a:hover {
   line-height: 26px;
 }
 #wrap #footer .container .column.footer-logo {
+  text-align: center;
   flex: 180px;
 }
-#wrap #footer .container .column.footer-logo h3 {
-  font-size: 34px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  padding: 2px 0 2px 0;
+#wrap #footer .container .column.footer-logo img {
+  width: 80%;
 }
 #wrap #footer .container .column h4 {
   font-size: 14px;
@@ -398,7 +408,7 @@ body.subpage main .container .content.notice table tr:hover {
 }
 body.subpage main .container .content.notice table td {
   font-weight: 300;
-  color: #666666;
+  color: #1a1a1a;
   border-bottom: 1px solid #b8944d;
 }
 body.subpage main .container .content.notice table td.hover {
