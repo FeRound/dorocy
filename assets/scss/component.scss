@@ -1,4 +1,7 @@
 //component
+.content{
+  width:100%
+}
 .box{
   display: flex;
   &.items-2{
@@ -17,6 +20,9 @@
     }
   }
   .items{
+    &.center{
+      text-align: center;
+    }
     box-sizing: border-box;
     padding: 50px;
     font-size: $fontSizeMid;
