@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 //site width
 $siteWidth: 1320px;
 
 //text size
-$fontSizeSamll: 12px;
+$fontSizeSamll: 14px;
 $fontSizeNormal: 16px;
 $fontSizeMid: 18px;
-$fontSizeBig: 21px;
+$fontSizeBig: 46px;
 
 //title text size
 $titleFontSizeSmall: 21px;
@@ -15,12 +16,12 @@ $titleFontSizeBig: 32px;
 
 // color
 // background color
-$layoutBg: #fff3c4;
+$layoutBg: #efe7dc;
 $tableBg: #b8944d;
 $tableCellBg: #ffe5b3;
 
 // font color
-$fontColorBasic: #666666;
+$fontColorBasic: #1a1a1a;
 $fontColorPrimary: #b8944d;
 $fontColorHover: #e3a936;
 
@@ -31,3 +32,6 @@ $borderBgColor: #997939;
 //button color
 $gbtnColor: #b8944d;
 $gbtnColorHover: #e3a936;
+
+$fontlight: 300;
+$fontbold : 700;
