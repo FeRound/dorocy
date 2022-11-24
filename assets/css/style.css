@@ -227,7 +227,7 @@ a:hover {
 
 .mainbanner {
   height: 550px;
-  background: url("../img/main_banner.jpg") no-repeat;
+  background: url("../img/main-banner/main-banner-img.jpg") no-repeat;
   background-size: cover;
 }
 
