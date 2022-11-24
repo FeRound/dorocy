@@ -48,6 +48,10 @@ a:hover {
   background: white;
 }
 
+.content {
+  width: 100%;
+}
+
 .box {
   display: flex;
 }
@@ -63,9 +67,12 @@ a:hover {
 .box .items {
   box-sizing: border-box;
   padding: 50px;
-  font-size: 18px;
+  font-size: 26px;
   flex: 100%;
   flex-shrink: 0;
+}
+.box .items.center {
+  text-align: center;
 }
 .box .items p {
   font-size: 14px;
@@ -86,7 +93,7 @@ a:hover {
 }
 #map .marker-title {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 26px;
 }
 
 #wrap {
@@ -301,6 +308,68 @@ body.subpage main .container .inner + .inner {
 }
 body.subpage main .container .inner .box {
   flex-wrap: wrap;
+}
+body.subpage main .container .content.introduce .items p {
+  font-size: 26px;
+  font-weight: 300;
+}
+body.subpage main .container .content.ci .items h3 {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+body.subpage main .container .content.ci .items span {
+  font-weight: bold;
+}
+body.subpage main .container .content.ci .items p {
+  color: #595959;
+  font-size: 26px;
+  font-weight: 300;
+}
+body.subpage main .container .content.history .items .title {
+  font-size: 46px;
+  font-weight: 700;
+}
+body.subpage main .container .content.history .items p {
+  font-size: 26px;
+  font-weight: 300;
+}
+body.subpage main .container .content.history .items .history {
+  padding-left: 215px;
+}
+body.subpage main .container .content.history .items .history .item {
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+}
+body.subpage main .container .content.history .items .history .item:first-child h4::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 1070px;
+  background: #000000;
+  right: 0;
+  top: 15px;
+}
+body.subpage main .container .content.history .items .history .item h4 {
+  padding-right: 30px;
+  position: relative;
+}
+body.subpage main .container .content.history .items .history .item h4::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #000000;
+  right: -5px;
+  top: 14px;
+}
+body.subpage main .container .content.history .items .history .item span {
+  padding-left: 30px;
+}
+body.subpage main .container .content.history .items .history .item ~ .item {
+  padding-top: 40px;
 }
 body.subpage main .container .content.gallery {
   flex: 100%;
