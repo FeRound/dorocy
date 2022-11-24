@@ -1,0 +1,43 @@
+//component
+.box{
+  display: flex;
+  &.items-2{
+    .items{
+      flex:50%
+    }
+  }
+  &.items-3{
+    .items{
+      flex:33.33%
+    }
+  }
+  &.items-4{
+    .items{
+      flex:25%
+    }
+  }
+  .items{
+    box-sizing: border-box;
+    padding: 50px;
+    font-size: $fontSizeMid;
+    flex: 100%;
+    flex-shrink: 0;
+    .title{
+      font-size: $fontSizeMid;
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
+
+//kakao map
+#map{
+  margin-top: 50px;
+  .marker-title{
+    font-weight: 700;
+    font-size: $fontSizeMid
+  }
+}
+
+

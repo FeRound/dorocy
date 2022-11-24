@@ -1,0 +1,14 @@
+.box {
+  display: flex;
+}
+.box.items-2 .items {
+  flex: 50%;
+}
+.box .itmes {
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: red;
+}
+.box .itmes img {
+  width: 100%;
+}
