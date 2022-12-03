@@ -23,7 +23,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #b8944d;
+  color: #1a1a1a;
   transition: 0.5s;
 }
 a:hover {
@@ -317,9 +317,6 @@ body.subpage main .container .content.ci .items h3 {
   font-size: 46px;
   font-weight: 700;
   margin-bottom: 0;
-}
-body.subpage main .container .content.ci .items span {
-  font-weight: bold;
 }
 body.subpage main .container .content.ci .items p {
   color: #595959;
