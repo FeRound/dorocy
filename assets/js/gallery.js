@@ -3,7 +3,7 @@ $(function(){
     let imgSrc = $(this).attr("href");
 
     let checkAni = $("#main img:last").is(":animated");
-    console.log(checkAni)
+    // console.log(checkAni)
     if(!checkAni){
       $("#main img:last").animate({opacity: 0},
         {duration : 1000, easing: "swing", start: function(){
@@ -26,20 +26,20 @@ $(function(){
     el.click(function(){
       let marginLeftPw = parseInt(pwElem.css("margin-left"))
       let isAni = pwElem.is(":animated"); //애니메이션 진행여부
-          if($(el).hasClass("next") && marginLeftPw > -(marginNumber * 2)){
-            pwElem.animate({marginLeft: `${marginLeftPw - marginNumber}`},"fast")
-          }else if($(el).hasClass("prev") && marginLeftPw < 0){
-            pwElem.animate({marginLeft: `${marginLeftPw + marginNumber}`},"fast")
-          }else if(marginLeftPw == -(marginNumber * 2) || marginLeftPw == 0){
-            alert("더 이상 이미지가 없습니다.");
-          }
+        if($(el).hasClass("next") && marginLeftPw > -(marginNumber * 2)){
+          pwElem.animate({marginLeft: `${marginLeftPw - marginNumber}`},"fast")
+        }else if($(el).hasClass("prev") && marginLeftPw < 0){
+          pwElem.animate({marginLeft: `${marginLeftPw + marginNumber}`},"fast")
+        }else if(marginLeftPw == -(marginNumber * 2) || marginLeftPw == 0){
+          alert("더 이상 이미지가 없습니다.");
+        }
     })
   }
 
   $("img.btn").each(function(){
     pageBtnFunc($(this))
-    console.log($(this))
-    console.log(this)
+    // console.log($(this))
+    // console.log(this)
   })
   
 });
