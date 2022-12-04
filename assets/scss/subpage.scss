@@ -268,6 +268,27 @@ body.subpage{
       .content.location{ //location 페이지
         flex: 100%;
       }
+      .content.product{
+        .items{
+          .title{
+            position: relative;
+            font-size: $titleFontProduct;
+            margin: 50px 0 115px;
+            &::before{
+              content: "";
+              position: absolute;
+              bottom:-90%;
+              left:50%;
+              width: 1px;
+              height: 80px;
+              background: #1a1a1a;
+            }
+          }
+          p{
+            font-size: $fontSizeMid;
+          }
+        }
+      }
     }    
   }
 }

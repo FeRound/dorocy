@@ -31,15 +31,18 @@
     p{
       font-size: $fontSizeSamll;
       margin-top: 50px;
-      font-weight: $fontbold;
+      font-weight: $fontMid;
     }
     .title{
-      font-size: $fontSizeBig;
-      font-weight: $fontlight;
+      font-size: $titleFontSizeBig;
+      font-weight: $fontbold;
       margin-bottom: 50px;
+      .font-product{
+        font-size: $titleFontProduct;
+      }
     }
     img{
-      width: 100%;
+      max-width: 100%;
     }
   }
 }

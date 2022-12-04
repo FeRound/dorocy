@@ -77,15 +77,18 @@ a:hover {
 .box .items p {
   font-size: 14px;
   margin-top: 50px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .box .items .title {
-  font-size: 46px;
-  font-weight: 300;
+  font-size: 32px;
+  font-weight: 700;
   margin-bottom: 50px;
 }
+.box .items .title .font-product {
+  font-size: 76px;
+}
 .box .items img {
-  width: 100%;
+  max-width: 100%;
 }
 
 #map {
@@ -247,6 +250,7 @@ a:hover {
   height: 550px;
   background: url("../img/main-banner/main-banner-img.jpg") no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 .inner:nth-child(1) {
@@ -483,4 +487,21 @@ body.subpage main .container .content.notice table td.hover {
 }
 body.subpage main .container .content.location {
   flex: 100%;
+}
+body.subpage main .container .content.product .items .title {
+  position: relative;
+  font-size: 76px;
+  margin: 50px 0 115px;
+}
+body.subpage main .container .content.product .items .title::before {
+  content: "";
+  position: absolute;
+  bottom: -90%;
+  left: 50%;
+  width: 1px;
+  height: 80px;
+  background: #1a1a1a;
+}
+body.subpage main .container .content.product .items p {
+  font-size: 26px;
 }
