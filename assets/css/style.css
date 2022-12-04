@@ -97,8 +97,9 @@ a:hover {
 }
 
 #wrap {
-  width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 #wrap #header {
   position: relative;

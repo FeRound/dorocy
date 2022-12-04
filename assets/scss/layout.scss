@@ -4,8 +4,9 @@ $footerHeight: 600px;
 $mainMinHeight: calc(100vh - (#{$headerHight} + #{$footerHeight}) - 51px);
 
 #wrap {
-  width: $siteWidth;
+  max-width: $siteWidth;
   margin: 0 auto;
+  padding: 0 30px;
   #header {
     position: relative;
     height: 60px;
