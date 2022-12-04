@@ -32,6 +32,12 @@ $mainMinHeight: calc(100vh - (#{$headerHight} + #{$footerHeight}) - 51px);
           &:first-child {
             margin-left: 0;
           }
+          a {
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            // color:$fontColorBasic
+          }
           &:hover{
             .sub-menu {
               opacity: 1;
@@ -46,11 +52,6 @@ $mainMinHeight: calc(100vh - (#{$headerHight} + #{$footerHeight}) - 51px);
                 }
               }
             }
-          }
-          a {
-            width: 100%;
-            height: 60px;
-            line-height: 60px;
           }
           //submenu 구현
           .sub-menu {
